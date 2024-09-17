@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_84D0kCHcEd6lJo4DCALHMw" entityName="EspressoAccountingSystem">
+  <assemblyContexts__ComposedStructure id="_9c3KwCHcEd6lJo4DCALHMw" entityName="Assembly_EspressoAccounting">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#_os1t4CHbEd62GabW1zGSBw"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_zUQ28HQgEe-xS75-6HAwnQ" entityName="Assembly_EspressoAccountingLoadbalancer">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="default.repository#__DeFgHQfEe-xS75-6HAwnQ"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_04LgwHQgEe-xS75-6HAwnQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_zUQ28HQgEe-xS75-6HAwnQ" providingAssemblyContext_AssemblyConnector="_9c3KwCHcEd6lJo4DCALHMw">
+    <providedRole_AssemblyConnector href="default.repository#_qZKs0CHbEd62GabW1zGSBw"/>
+    <requiredRole_AssemblyConnector href="default.repository#_GDiO8HQgEe-xS75-6HAwnQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_8fTDIHQgEe-xS75-6HAwnQ" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_-r1fUCHcEd6lJo4DCALHMw" assemblyContext_ProvidedDelegationConnector="_zUQ28HQgEe-xS75-6HAwnQ">
+    <innerProvidedRole_ProvidedDelegationConnector href="default.repository#_HJyFUHQgEe-xS75-6HAwnQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_-r1fUCHcEd6lJo4DCALHMw" entityName="Provided_Accounting">
+    <providedInterface__OperationProvidedRole href="default.repository#_n7g-oCHbEd62GabW1zGSBw"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>

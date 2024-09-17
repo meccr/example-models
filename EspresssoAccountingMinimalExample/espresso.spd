@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spd:SPD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adjustments="http://palladiosimulator.org/ScalingPolicyDefinition/Adjustments/1.0" xmlns:expectations="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Expectations/1.0" xmlns:policy="http://palladiosimulator.org/ScalingPolicyDefinition/Constraints/Policy/1.0" xmlns:spd="http://palladiosimulator.org/ScalingPolicyDefinition/1.0" xmlns:stimuli="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Stimuli/1.0" xmlns:target="http://palladiosimulator.org/ScalingPolicyDefinition/Constraints/Target/1.0" xmlns:targets="http://palladiosimulator.org/ScalingPolicyDefinition/Targets/1.0" xmlns:triggers="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/1.0" id="_py6nEHQhEe-xS75-6HAwnQ">
+  <scalingPolicies id="_xlJ0UnQhEe-xS75-6HAwnQ" entityName="Scale OUT on Operation Responsetime" active="true" targetGroup="_qJJ80HQhEe-xS75-6HAwnQ">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_KDXIQXQlEe-xS75-6HAwnQ" cooldownTime="10.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_5nX-U3QhEe-xS75-6HAwnQ" relationalOperator="GreaterThanOrEqualTo">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="3.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_Qv_BNXQ5Ee-clfQHeA7y_Q" entityName="Scale IN on Operation Responsetime" active="true" targetGroup="_qJJ80HQhEe-xS75-6HAwnQ">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_WGXQAXQ5Ee-clfQHeA7y_Q" cooldownTime="10.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_YlVz43Q5Ee-clfQHeA7y_Q" relationalOperator="LessThanOrEqualTo">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_qJJ80HQhEe-xS75-6HAwnQ" entityName="EspressoAccounting">
+    <targetConstraints xsi:type="target:ThrashingConstraint" id="_qYDAgXQ5Ee-clfQHeA7y_Q" minimumTimeNoThrashing="20.0"/>
+    <unitAssembly href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+  </targetGroups>
+</spd:SPD>

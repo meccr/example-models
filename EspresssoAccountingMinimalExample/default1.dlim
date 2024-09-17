@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tools.descartes.dlim:Sequence xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tools.descartes.dlim="http://descartes.tools/dlim/0.1" name="default1" terminateAfterLoops="1" firstIterationEnd="600.0" loopDuration="600.0" finalDuration="600.0">
+  <combine>
+    <function xsi:type="tools.descartes.dlim:UniformNoise" min="-1.0"/>
+  </combine>
+  <sequenceFunctionContainers name="low" duration="30.0" firstIterationEnd="30.0">
+    <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="seasonal0" duration="90.0" firstIterationStart="30.0" firstIterationEnd="120.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="1.0" functionOutputAtEnd="12.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="seasonal1" duration="90.0" firstIterationStart="120.0" firstIterationEnd="210.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="12.0" functionOutputAtEnd="3.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="low" duration="90.0" firstIterationStart="210.0" firstIterationEnd="300.0">
+    <function xsi:type="tools.descartes.dlim:Constant" constant="3.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="seasonal2" duration="90.0" firstIterationStart="300.0" firstIterationEnd="390.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="3.0" functionOutputAtEnd="15.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="seasonal4" duration="90.0" firstIterationStart="390.0" firstIterationEnd="480.0">
+    <function xsi:type="tools.descartes.dlim:SinTrend" functionOutputAtStart="15.0"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="new low" duration="120.0" firstIterationStart="480.0" firstIterationEnd="600.0">
+    <function xsi:type="tools.descartes.dlim:Constant" constant="1.0"/>
+  </sequenceFunctionContainers>
+</tools.descartes.dlim:Sequence>
