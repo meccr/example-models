@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.palladiosimulator.analyzer.slingshot.stateexploration.ui.launchConfigurationType1">
-    <stringAttribute key="EDP2RepositoryID" value="_bV0Y0LgiEe26Ga-db5S2vg"/>
+    <stringAttribute key="EDP2RepositoryID" value="_fzVMwHGVEe-l3OU2sS56rQ"/>
     <booleanAttribute key="Idle Exploration" value="false"/>
-    <stringAttribute key="Max Exploration Cycles" value="15"/>
+    <stringAttribute key="Location for Arch. Configruations" value=""/>
+    <stringAttribute key="Max Exploration Cycles" value="10"/>
     <stringAttribute key="Min State Duration" value="200"/>
+    <stringAttribute key="Sensitivity [0, 1 (most sensitive)]" value="0"/>
     <stringAttribute key="Sensitivity [0, 1 (most sensitive)] " value="0"/>
     <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
-    <stringAttribute key="allocationModel" value="platform:/resource/mentorexample/palladio.allocation"/>
+    <stringAttribute key="allocationModel" value="platform:/resource/T2-Project Example/palladio.allocation"/>
     <booleanAttribute key="clear" value="true"/>
     <stringAttribute key="confidenceBatchSize" value="200"/>
     <stringAttribute key="confidenceHalfWidth" value="10"/>
@@ -27,19 +29,19 @@
     <stringAttribute key="maximum" value=""/>
     <stringAttribute key="maximumMeasurementCount" value="10000"/>
     <stringAttribute key="minimum" value=""/>
-    <stringAttribute key="monitorrepository" value="platform:/resource/mentorexample/monitoring/palladio.monitorrepository"/>
+    <stringAttribute key="monitorrepository" value="platform:/resource/T2-Project Example/monitoring/palladio.monitorrepository"/>
     <stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
     <stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
-    <stringAttribute key="semanticspd" value="platform:/resource/mentorexample/spdsemantics.semanticspd"/>
+    <stringAttribute key="semanticspd" value="platform:/resource/T2-Project Example/spdsemantics.semanticspd"/>
     <booleanAttribute key="shouldThrowException" value="true"/>
     <stringAttribute key="simTime" value="150000"/>
     <booleanAttribute key="simulateAccuracy" value="false"/>
     <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
-    <stringAttribute key="slo" value="platform:/resource/mentorexample/palladio.slo"/>
-    <stringAttribute key="spd" value="platform:/resource/mentorexample/spdpolicies.spd"/>
+    <stringAttribute key="slo" value="platform:/resource/T2-Project Example/palladio.slo"/>
+    <stringAttribute key="spd" value="platform:/resource/T2-Project Example/spdpolicies.spd"/>
     <stringAttribute key="stepwidth" value=""/>
-    <stringAttribute key="usageEvolution" value="platform:/resource/mentorexample/default.usageevolution"/>
-    <stringAttribute key="usagemodel" value="platform:/resource/mentorexample/full.usagemodel"/>
+    <stringAttribute key="usageEvolution" value="platform:/resource/T2-Project Example/default.usageevolution"/>
+    <stringAttribute key="usagemodel" value="platform:/resource/T2-Project Example/full.usagemodel"/>
     <booleanAttribute key="useConfidenceStopCondition" value="false"/>
     <booleanAttribute key="useFixedSeed" value="false"/>
     <stringAttribute key="variable" value=""/>
