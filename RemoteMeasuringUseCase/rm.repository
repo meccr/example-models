@@ -19,8 +19,7 @@
         </resourceDemand_Action>
       </steps_Behaviour>
       <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_SnNDUBYtEey3DYSSPBHHJQ" entityName="storeTaggedData" predecessor_AbstractAction="_MgI-cBYtEey3DYSSPBHHJQ" successor_AbstractAction="_1rIgIBYtEey3DYSSPBHHJQ" calledService_ExternalService="_zXf4YBVjEeybTaJk9S9mJw" role_ExternalService="_LHy9dRVnEeybTaJk9S9mJw"/>
-<steps_Behaviour xsi:type="seff:ExternalCallAction" id="_1rIgIBYtEey3DYSSPBHHJQ" entityName="sendMeasurementsAvailable" predecessor_AbstractAction="_SnNDUBYtEey3DYSSPBHHJQ" successor_AbstractAction="_LXJ9IBYtEey3DYSSPBHHJQ"
-calledService_ExternalService="_zR2mkBVnEeybTaJk9S9mJw" role_ExternalService="_rNJwVBVnEeybTaJk9S9mJw"/>
+      <steps_Behaviour xsi:type="seff:ExternalCallAction" id="_1rIgIBYtEey3DYSSPBHHJQ" entityName="sendMeasurementsAvailable" predecessor_AbstractAction="_SnNDUBYtEey3DYSSPBHHJQ" successor_AbstractAction="_LXJ9IBYtEey3DYSSPBHHJQ" calledService_ExternalService="_zR2mkBVnEeybTaJk9S9mJw" role_ExternalService="_rNJwVBVnEeybTaJk9S9mJw"/>
     </serviceEffectSpecifications__BasicComponent>
     <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_9aRylxYsEey3DYSSPBHHJQ" describedService__SEFF="_XDfiIBVhEeybTaJk9S9mJw">
       <steps_Behaviour xsi:type="seff:StartAction" id="_ivZZcBYuEey3DYSSPBHHJQ" successor_AbstractAction="_jivh8BYuEey3DYSSPBHHJQ"/>

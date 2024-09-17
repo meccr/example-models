@@ -34,6 +34,7 @@
     <stringAttribute key="slo" value=""/>
     <stringAttribute key="spd" value="platform:/resource/RemoteMeasuringMosaic/scalingPolicies/ThesisExp2-dec-app-metrics-5-1000-cd60.spd"/>
     <stringAttribute key="stepwidth" value=""/>
+    <stringAttribute key="usageEvolution" value=""/>
     <stringAttribute key="usagemodel" value="platform:/resource/RemoteMeasuringMosaic/rm.usagemodel"/>
     <booleanAttribute key="useConfidenceStopCondition" value="false"/>
     <booleanAttribute key="useFixedSeed" value="false"/>

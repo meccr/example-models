@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.palladiosimulator.analyzer.slingshot.ui.launchConfigurationType1">
-    <stringAttribute key="EDP2RepositoryID" value="_Pvo2AM_LEe6yoZV93WYYzQ"/>
+    <stringAttribute key="EDP2RepositoryID" value="_dAEa8HGVEe-l3OU2sS56rQ"/>
     <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
-    <stringAttribute key="allocationModel" value="platform:/resource/RemoteMeasuringMosaic/rm.allocation"/>
+    <stringAttribute key="allocationModel" value="platform:/resource/Remote Measuring Usecase/rm.allocation"/>
     <booleanAttribute key="clear" value="true"/>
     <stringAttribute key="confidenceBatchSize" value="200"/>
     <stringAttribute key="confidenceHalfWidth" value="10"/>
@@ -23,19 +23,19 @@
     <stringAttribute key="maximum" value=""/>
     <stringAttribute key="maximumMeasurementCount" value="10"/>
     <stringAttribute key="minimum" value=""/>
-    <stringAttribute key="monitorrepository" value="platform:/resource/RemoteMeasuringMosaic/monitors/monitors.monitorrepository"/>
+    <stringAttribute key="monitorrepository" value="platform:/resource/Remote Measuring Usecase/monitors/monitors.monitorrepository"/>
     <stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
     <stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
-    <stringAttribute key="semanticspd" value="platform:/resource/RemoteMeasuringMosaic/scalingPolicies/semanticModels/aio-default-hpa.semanticspd"/>
+    <stringAttribute key="semanticspd" value="platform:/resource/Remote Measuring Usecase/scalingPolicies/semanticModels/aio.semanticspd"/>
     <booleanAttribute key="shouldThrowException" value="true"/>
     <stringAttribute key="simTime" value="300"/>
     <booleanAttribute key="simulateAccuracy" value="false"/>
     <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
     <stringAttribute key="slo" value=""/>
-    <stringAttribute key="spd" value="platform:/resource/RemoteMeasuringMosaic/scalingPolicies/ThesisExp2-dec-hpa-default.spd"/>
+    <stringAttribute key="spd" value="platform:/resource/Remote Measuring Usecase/scalingPolicies/ThesisExp.spd"/>
     <stringAttribute key="stepwidth" value=""/>
     <stringAttribute key="usageEvolution" value=""/>
-    <stringAttribute key="usagemodel" value="platform:/resource/RemoteMeasuringMosaic/rm.usagemodel"/>
+    <stringAttribute key="usagemodel" value="platform:/resource/Remote Measuring Usecase/rm.usagemodel"/>
     <booleanAttribute key="useConfidenceStopCondition" value="false"/>
     <booleanAttribute key="useFixedSeed" value="false"/>
     <stringAttribute key="variable" value=""/>

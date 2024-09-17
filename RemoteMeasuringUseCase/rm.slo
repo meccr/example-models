@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slo:ServiceLevelObjectiveRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:slo="http://palladiosimulator.org/ServiceLevelObjective/1.0">
+  <servicelevelobjectives id="_cRugoHTqEe-wyIPQqSDyCA" name="DataProvider response time SLO" description="SLO on response time of DataProvider (the UsageScenario that involved a human)">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_FvPgQHTsEe-wyIPQqSDyCA" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_HMW-hXTsEe-wyIPQqSDyCA" thresholdLimit="10"/>
+    <measurementSpecification href="monitors/monitors.monitorrepository#_oE_lORr-Ee6kYtTTkxxYZQ"/>
+  </servicelevelobjectives>
+</slo:ServiceLevelObjectiveRepository>
