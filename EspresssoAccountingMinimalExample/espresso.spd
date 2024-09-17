@@ -17,7 +17,7 @@
       <stimulus xsi:type="stimuli:OperationResponseTime">
         <operationSignature href="default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
       </stimulus>
-      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="0.1"/>
     </scalingTrigger>
   </scalingPolicies>
   <targetGroups xsi:type="targets:ServiceGroup" id="_qJJ80HQhEe-xS75-6HAwnQ" entityName="EspressoAccounting">
