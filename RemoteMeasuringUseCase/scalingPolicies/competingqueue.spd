@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spd:SPD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adjustments="http://palladiosimulator.org/ScalingPolicyDefinition/Adjustments/1.0" xmlns:spd="http://palladiosimulator.org/ScalingPolicyDefinition/1.0" xmlns:targets="http://palladiosimulator.org/ScalingPolicyDefinition/Targets/1.0" id="_Rz9KQDiFEe6zF9xmY-7qfg" entityName="ccqueue">
+  <scalingPolicies id="_WBTUcDiFEe6zF9xmY-7qfg" targetGroup="_bu5T8TiGEe6yP5jv9POz2g">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="2"/>
+  </scalingPolicies>
+  <targetGroups xsi:type="targets:CompetingConsumersGroup" id="_TEuOkziFEe6zF9xmY-7qfg">
+    <unitAssembly href="../rm.system#_vmn90BYeEeyTBLpRqyumrw"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ElasticInfrastructure" id="_bu5T8TiGEe6yP5jv9POz2g">
+    <PCM_ResourceEnvironment href="../rm.resourceenvironment#/"/>
+  </targetGroups>
+</spd:SPD>

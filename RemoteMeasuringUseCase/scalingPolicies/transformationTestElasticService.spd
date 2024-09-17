@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spd:SPD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adjustments="http://palladiosimulator.org/ScalingPolicyDefinition/Adjustments/1.0" xmlns:spd="http://palladiosimulator.org/ScalingPolicyDefinition/1.0" xmlns:targets="http://palladiosimulator.org/ScalingPolicyDefinition/Targets/1.0" id="_A34-kAN7Ee60RZjVajRPFw" entityName="RMUC-TransformationTestRules">
+  <scalingPolicies id="_Ls-40AN7Ee60RZjVajRPFw" entityName="Relative_IN" active="true" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:RelativeAdjustment" percentageGrowthValue="-40" minAdjustmentValue="-1"/>
+  </scalingPolicies>
+  <scalingPolicies id="_YvdoJBmqEe6E7aGWWEXJtA" entityName="Relative_OUT" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:RelativeAdjustment" percentageGrowthValue="150" minAdjustmentValue="1"/>
+  </scalingPolicies>
+  <scalingPolicies id="_agh9JBmqEe6E7aGWWEXJtA" entityName="Step_OUT" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="2"/>
+  </scalingPolicies>
+  <scalingPolicies id="_ddnZVBmqEe6E7aGWWEXJtA" entityName="Step_IN" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-2"/>
+  </scalingPolicies>
+  <scalingPolicies id="_fp6RxBmqEe6E7aGWWEXJtA" entityName="Absolute_IN" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="1"/>
+  </scalingPolicies>
+  <scalingPolicies id="_58RLRBmqEe6E7aGWWEXJtA" entityName="Absolute_OUT" targetGroup="_p0QUkhvIEe67Loa_uYOm5w">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="5"/>
+  </scalingPolicies>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_p0QUkhvIEe67Loa_uYOm5w" entityName="Elastic DeviceCommunication">
+    <unitAssembly href="../rm.system#_zEvqgBYeEeyTBLpRqyumrw"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_hvib5BynEe617InmAUB-5g" entityName="Elastic DataProvider">
+    <unitAssembly href="../rm.system#_ySz3QBYeEeyTBLpRqyumrw"/>
+  </targetGroups>
+</spd:SPD>

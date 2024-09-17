@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spd:SPD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adjustments="http://palladiosimulator.org/ScalingPolicyDefinition/Adjustments/1.0" xmlns:expectations="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Expectations/1.0" xmlns:spd="http://palladiosimulator.org/ScalingPolicyDefinition/1.0" xmlns:stimuli="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Stimuli/1.0" xmlns:target="http://palladiosimulator.org/ScalingPolicyDefinition/Constraints/Target/1.0" xmlns:targets="http://palladiosimulator.org/ScalingPolicyDefinition/Targets/1.0" xmlns:triggers="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/1.0" id="_g14rQB_BEe68JLQNTLr8-Q" entityName="RMUC-ServiceGroupScalingRules">
+  <scalingPolicies id="_Om-rMBspEe6QEdGjWgiZvw" entityName="UC9_PointInTimeScaleOut" targetGroup="_JiTQYhspEe6QEdGjWgiZvw">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="2"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_VRieshspEe6QEdGjWgiZvw" relationalOperator="EqualTo">
+      <stimulus xsi:type="stimuli:SimulationTime"/>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_ZolhpB_CEe68JLQNTLr8-Q" entityName="UC10_ConstraintOnDataProvider" targetGroup="_JiTQYhspEe6QEdGjWgiZvw">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="6"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_TQgIwh_DEe68JLQNTLr8-Q" relationalOperator="EqualTo">
+      <stimulus xsi:type="stimuli:SimulationTime"/>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_aWlQFB_CEe68JLQNTLr8-Q" entityName="UC10_ConstraintOnDeviceCommunication" targetGroup="_iNM5hBtNEe6tIv-bdUGv_A">
+    <adjustmentType xsi:type="adjustments:AbsoluteAdjustment" goalValue="6"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_YCaYkh_DEe68JLQNTLr8-Q" relationalOperator="EqualTo">
+      <stimulus xsi:type="stimuli:SimulationTime"/>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_sqjCJBtNEe6tIv-bdUGv_A" entityName="UC11_StepBasedCPUScaleOut " targetGroup="_JiTQYhspEe6QEdGjWgiZvw">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="2"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_37Uy0htNEe6tIv-bdUGv_A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:CPUUtilization"/>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="80.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_0OZOFBtNEe6tIv-bdUGv_A" entityName="UC12_BottleneckShift" targetGroup="_JiTQYhspEe6QEdGjWgiZvw"/>
+  <scalingPolicies id="_ntx6tB_CEe68JLQNTLr8-Q" entityName="UC12_BottleneckMitigation" targetGroup="_iNM5hBtNEe6tIv-bdUGv_A"/>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_JiTQYhspEe6QEdGjWgiZvw" entityName="DataProvider">
+    <targetConstraints xsi:type="target:TargetGroupSizeConstraint" id="_uDGeAB_CEe68JLQNTLr8-Q" minSize="1" maxSize="4"/>
+    <unitAssembly href="../rm.system#_ySz3QBYeEeyTBLpRqyumrw"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_iNM5hBtNEe6tIv-bdUGv_A" entityName="DeviceCommunication">
+    <targetConstraints xsi:type="target:TargetGroupSizeConstraint" id="_ue7eYB_CEe68JLQNTLr8-Q" minSize="1" maxSize="5"/>
+    <unitAssembly href="../rm.system#_zEvqgBYeEeyTBLpRqyumrw"/>
+  </targetGroups>
+</spd:SPD>
