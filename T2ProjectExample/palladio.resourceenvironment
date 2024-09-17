@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:emfprofileapplication="http://www.modelversioning.org/emfprofile/application/1.1" xmlns:org.palladiosimulator.cost.profile="org.palladiosimulator.cost.profile.cost" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2">
+  <resourceenvironment:ResourceEnvironment entityName="New ResourceEnvironment">
+    <linkingResources__ResourceEnvironment id="_7P_koMezEe2JloUXDyibGQ" entityName="LinkingResource1" connectedResourceContainers_LinkingResource="_0BJYUMezEe2JloUXDyibGQ _zqmgkMezEe2JloUXDyibGQ _x4z0AMo-Ee2g7r7Z0ui35A _3B08QMo-Ee2g7r7Z0ui35A _4n4UEMo-Ee2g7r7Z0ui35A _Q9xg4Mo_Ee2g7r7Z0ui35A">
+      <communicationLinkResourceSpecifications_LinkingResource id="_7QALsMezEe2JloUXDyibGQ">
+        <communicationLinkResourceType_CommunicationLinkResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_o3sScH2AEdyH8uerKnHYug"/>
+        <latency_CommunicationLinkResourceSpecification specification="0"/>
+        <throughput_CommunicationLinkResourceSpecification specification="10000000"/>
+      </communicationLinkResourceSpecifications_LinkingResource>
+    </linkingResources__ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_zqmgkMezEe2JloUXDyibGQ" entityName="OrderResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_C4B3kMe1Ee2JloUXDyibGQ">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_0BJYUMezEe2JloUXDyibGQ" entityName="PaymentResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_0wYncMe0Ee2JloUXDyibGQ">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_x4z0AMo-Ee2g7r7Z0ui35A" entityName="InventoryResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_CmiVkMo_Ee2g7r7Z0ui35A">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_3B08QMo-Ee2g7r7Z0ui35A" entityName="CartResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_LMDZ4Mo_Ee2g7r7Z0ui35A">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_4n4UEMo-Ee2g7r7Z0ui35A" entityName="UiBackendResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_NupScMo_Ee2g7r7Z0ui35A">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+    <resourceContainer_ResourceEnvironment id="_Q9xg4Mo_Ee2g7r7Z0ui35A" entityName="OrchestratorResourceContainer">
+      <activeResourceSpecifications_ResourceContainer id="_SXu9cMo_Ee2g7r7Z0ui35A">
+        <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#ProcessorSharing"/>
+        <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        <processingRate_ProcessingResourceSpecification specification="0.1"/>
+      </activeResourceSpecifications_ResourceContainer>
+    </resourceContainer_ResourceEnvironment>
+  </resourceenvironment:ResourceEnvironment>
+  <emfprofileapplication:ProfileApplication>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:CostReport" appliedTo="/0" interval="2.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_R7S0EH5wEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_zqmgkMezEe2JloUXDyibGQ" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_0BJYUMezEe2JloUXDyibGQ" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_x4z0AMo-Ee2g7r7Z0ui35A" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_3B08QMo-Ee2g7r7Z0ui35A" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_4n4UEMo-Ee2g7r7Z0ui35A" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_Q9xg4Mo_Ee2g7r7Z0ui35A" amount="1.0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <importedProfiles nsURI="org.palladiosimulator.cost.profile.cost" location="platform:/plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram"/>
+  </emfprofileapplication:ProfileApplication>
+</xmi:XMI>

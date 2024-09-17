@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slo:ServiceLevelObjectiveRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:slo="http://palladiosimulator.org/ServiceLevelObjective/1.0">
+  <servicelevelobjectives id="_jPYQAGbYEe-T4uPAXoABbg" name="ResponseTime UsageScenario ">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_GwqsUGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_EKIH5WbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_iCaLwMe8Ee2JloUXDyibGQ"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_nn02-mbYEe-T4uPAXoABbg" name="OperationResponseTime Order::order">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_HZ_WIGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_HuYRxWbbEe-T4uPAXoABbg" thresholdLimit="0.5"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_Dl4pQI99Ee6xk9gwfhsFew"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_oJ9TqmbYEe-T4uPAXoABbg" name="OperationResponseTime Payment::pay">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_I2MOYGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_JMgcpWbbEe-T4uPAXoABbg" thresholdLimit="3"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_CAvXwEQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_oo-x-mbYEe-T4uPAXoABbg" name="OperationResponseTime Inventory::getItem">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_J4JaoGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_KpszZWbbEe-T4uPAXoABbg" thresholdLimit="0.5"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_CxrsgEQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_pMZBCmbYEe-T4uPAXoABbg" name="OperationResponseTime Inventory::getAllItems">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_L0xfYGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_MywxpWbbEe-T4uPAXoABbg" thresholdLimit="1"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_DYd_sEQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_ppqL2mbYEe-T4uPAXoABbg" name="OperationResponseTime Inventory::confirmReservation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_ZJuuUGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_ZeSpFWbbEe-T4uPAXoABbg" thresholdLimit="4"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_EJP8YEQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_qOewKmbYEe-T4uPAXoABbg" name="OperationResponseTime Inventory::placeReservation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_aqt_8GbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_bm8XpWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_Ew2u8EQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_rHkUSmbYEe-T4uPAXoABbg" name="OperationResponseTime Cart::getContent">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_bHeNYGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_cBp9tWbbEe-T4uPAXoABbg" thresholdLimit="1"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_Fap54EQkEe-hSusbQQU6Iw"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_reTZSmbYEe-T4uPAXoABbg" name="OperationResponseTime Cart::addItem">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_cgywwGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_c1LsZWbbEe-T4uPAXoABbg" thresholdLimit="2"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_EMtYsI99Ee6xk9gwfhsFew"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_r7Y96mbYEe-T4uPAXoABbg" name="OperationResponseTime Orchestrator::orchestrateOrder">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_dQLmUGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_dhicFWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_zCX_EOtPEe6gUbhY3xd0qA"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_sYNcymbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Order Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_eMGcAGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_egpIpWbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4G90dqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_s91SWmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Order StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_fAPOsGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_faGgNWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4G90NqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_tZU7imbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Payment Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_f26YAGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_gVcHFWbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4KBK9qvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_t0kGCmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Payment StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_g9zHkGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_hY1dxWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4KBKtqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_uWr7qmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Inventory Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_h0VuAGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_iIkRlWbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4NEctqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_uz7RSmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Inventory StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_i6GcMGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_jc1V1WbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4NEc9qvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_veBXKmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Cart Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_kGvOcGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_kaep1WbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4QHxdqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_v4H5OmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor Cart StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_lEugsGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_llMwhWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4QHxNqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_wWJ5CmbYEe-T4uPAXoABbg" name="ActiveResourceMonitor UIBackend Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_mC4LAGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_mmhqpWbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4SkCNqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_RrUt-mbZEe-T4uPAXoABbg" name="ActiveResourceMonitor UIBackend StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_nLCs8GbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_npIXJWbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4SkB9qvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_SJQnKmbZEe-T4uPAXoABbg" name="ActiveResourceMonitor Orchestrator Utilisation">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_oXqREGbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_o1SBNWbbEe-T4uPAXoABbg" thresholdLimit="90"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4VAQdqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+  <servicelevelobjectives id="_S-MrGmbZEe-T4uPAXoABbg" name="ActiveResourceMonitor Orchestrator StateOfActiveResource">
+    <lowerThreshold xsi:type="slo:HardThreshold" id="_pfgp8GbbEe-T4uPAXoABbg" thresholdLimit="0"/>
+    <upperThreshold xsi:type="slo:HardThreshold" id="_r7SI1WbbEe-T4uPAXoABbg" thresholdLimit="10"/>
+    <measurementSpecification href="monitoring/palladio.monitorrepository#_j4VAQNqvEe2AxOOsE9OYvg"/>
+  </servicelevelobjectives>
+</slo:ServiceLevelObjectiveRepository>

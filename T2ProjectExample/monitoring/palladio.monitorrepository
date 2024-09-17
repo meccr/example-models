@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monitorrepository:MonitorRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:metricspec="http://palladiosimulator.org/MetricSpec/1.0" xmlns:monitorrepository="http://palladiosimulator.org/MonitorRepository/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" id="_I4AY0Me8Ee2JloUXDyibGQ" entityName="palladio monitors">
+  <monitors id="_M0kVG8e8Ee2JloUXDyibGQ" entityName="UsageScenarioMonitor FullUsageScenario">
+    <measurementSpecifications id="_iCaLwMe8Ee2JloUXDyibGQ">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_iCaLwce8Ee2JloUXDyibGQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.0"/>
+  </monitors>
+  <monitors id="_hVB9RNqvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor Order">
+    <measurementSpecifications id="_j4G90NqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4G90tqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4G90dqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4G909qvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.1"/>
+  </monitors>
+  <monitors id="_hVB9RdqvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor Payment">
+    <measurementSpecifications id="_j4KBKtqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4KBLNqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4KBK9qvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4KBLdqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.2"/>
+  </monitors>
+  <monitors id="_hVB9RtqvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor Inventory">
+    <measurementSpecifications id="_j4NEctqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4NEdNqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4NEc9qvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4NEddqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.3"/>
+  </monitors>
+  <monitors id="_hVB9R9qvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor Cart">
+    <measurementSpecifications id="_j4QHxNqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4QHxtqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4QHxdqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4QHx9qvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.4"/>
+  </monitors>
+  <monitors id="_hVB9SNqvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor UIBackend" activated="false">
+    <measurementSpecifications id="_j4SkB9qvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4SkCdqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4SkCNqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4SkCtqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.5"/>
+  </monitors>
+  <monitors id="_hVB9SdqvEe2AxOOsE9OYvg" entityName="ActiveResourceMonitor Orchestrator">
+    <measurementSpecifications id="_j4VAQNqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_paDhIs7qEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4VAQtqvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measurementSpecifications id="_j4VAQdqvEe2AxOOsE9OYvg">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_QIb6cikUEeSuf8LV7cHLgA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_j4VAQ9qvEe2AxOOsE9OYvg"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.6"/>
+  </monitors>
+  <monitors id="_-59RwduQEe6eDbPU8amRkQ" entityName="Cost_Cart">
+    <measurementSpecifications id="_Mb2wgNuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84FgNuREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.7"/>
+  </monitors>
+  <monitors id="_BxjxAduREe6eDbPU8amRkQ" entityName="Cost_Inventory">
+    <measurementSpecifications id="_NHQd8NuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84FgduREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.8"/>
+  </monitors>
+  <monitors id="_CUVt8duREe6eDbPU8amRkQ" entityName="Cost_Orchestrator">
+    <measurementSpecifications id="_Nl7W8NuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84FgtuREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.9"/>
+  </monitors>
+  <monitors id="_C4I-kduREe6eDbPU8amRkQ" entityName="Cost_Order">
+    <measurementSpecifications id="_OCZQgNuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84Fg9uREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.10"/>
+  </monitors>
+  <monitors id="_DR47UduREe6eDbPU8amRkQ" entityName="Cost_Payment">
+    <measurementSpecifications id="_OZ6_sNuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84FhNuREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.11"/>
+  </monitors>
+  <monitors id="_DppUAduREe6eDbPU8amRkQ" entityName="Cost_UiBackend">
+    <measurementSpecifications id="_PBf9ENuREe6eDbPU8amRkQ" triggersSelfAdaptations="false">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Z84FhduREe6eDbPU8amRkQ"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.12"/>
+  </monitors>
+  <monitors id="_0VF_wY98Ee6xk9gwfhsFew" entityName="OperationResponseTime Order::order">
+    <measurementSpecifications id="_Dl4pQI99Ee6xk9gwfhsFew">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Hrz80I99Ee6xk9gwfhsFew"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.13"/>
+  </monitors>
+  <monitors id="_H_UEcUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Payment::pay">
+    <measurementSpecifications id="_CAvXwEQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_oEQkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.14"/>
+  </monitors>
+  <monitors id="_Iv_TcUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Inventory::getItem">
+    <measurementSpecifications id="_CxrsgEQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_oUQkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.15"/>
+  </monitors>
+  <monitors id="_KCzmMUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Inventory::getAllItems">
+    <measurementSpecifications id="_DYd_sEQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_okQkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.16"/>
+  </monitors>
+  <monitors id="_KnQXEUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Inventory::confirmReservation">
+    <measurementSpecifications id="_EJP8YEQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_o0QkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.17"/>
+  </monitors>
+  <monitors id="_LEIgUUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Inventory::placeReservation">
+    <measurementSpecifications id="_Ew2u8EQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_pEQkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.18"/>
+  </monitors>
+  <monitors id="_LfoJgUQjEe-hSusbQQU6Iw" entityName="OperationResponseTime Cart::getContent">
+    <measurementSpecifications id="_Fap54EQkEe-hSusbQQU6Iw">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_IA7_pUQkEe-hSusbQQU6Iw"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.19"/>
+  </monitors>
+  <monitors id="_4LDksY98Ee6xk9gwfhsFew" entityName="OperationResponseTime Cart::addItem">
+    <measurementSpecifications id="_EMtYsI99Ee6xk9gwfhsFew">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_Hr0j4I99Ee6xk9gwfhsFew"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.20"/>
+  </monitors>
+  <monitors id="_W5PxMetPEe6Nq5YOo7hDWg" entityName="OperationResponseTime Orchestrator::orchestrateOrder">
+    <measurementSpecifications id="_zCX_EOtPEe6gUbhY3xd0qA">
+      <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_6rYmYs7nEeOX_4BzImuHbA"/>
+      <processingType xsi:type="monitorrepository:FeedThrough" id="_2hFhoOtPEe6gUbhY3xd0qA"/>
+    </measurementSpecifications>
+    <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="palladio.measuringpoint#//@measuringPoints.21"/>
+  </monitors>
+</monitorrepository:MonitorRepository>

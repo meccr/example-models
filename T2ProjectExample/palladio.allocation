@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_O9qpIMe0Ee2JloUXDyibGQ" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="palladio.resourceenvironment#/0"/>
+  <system_Allocation href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <allocationContexts_Allocation id="_XZp-AMe0Ee2JloUXDyibGQ" entityName="Allocation_Assembly_OrderComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ"/>
+    <assemblyContext_AllocationContext href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_YC4hMMe0Ee2JloUXDyibGQ" entityName="Allocation_Assembly_PaymentComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ"/>
+    <assemblyContext_AllocationContext href="default.system#_CVSvkAmXEe2rV9rAF8Pg8Q"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_ZWKuAMe0Ee2JloUXDyibGQ" entityName="Allocation_Assembly_UiBackendComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_qghioMcvEe2Kg9xWm9sYKA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Zn1FwMe0Ee2JloUXDyibGQ" entityName="Allocation_Assembly_CartComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_wd0AcMcvEe2Kg9xWm9sYKA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_Z4rlMMe0Ee2JloUXDyibGQ" entityName="Allocation_Assembly_InventoryComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_xxa9YMcvEe2Kg9xWm9sYKA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_jViZ0Me3Ee2JloUXDyibGQ" entityName="Allocation_Assemble_OrchestratorComponent">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_rUJ2MMe3Ee2JloUXDyibGQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_DX7fILqmEe64HqFjLo8HIw" entityName="Allocation_Assembly_CartLoadbalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_zYp_ALqlEe64HqFjLo8HIw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_rRTzUOtLEe6Nq5YOo7hDWg" entityName="Allocation_Assembly_PaymentLoadBalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ"/>
+    <assemblyContext_AllocationContext href="default.system#_abPOEOtLEe6Nq5YOo7hDWg"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_7YvEQDUVEe-ywrOlwa59qQ" entityName="Allocation_Assembly_InventoryLoadbalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_uWaA8DUWEe-ywrOlwa59qQ" entityName="Allocation_Assembly_OrderLoadbalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ"/>
+    <assemblyContext_AllocationContext href="default.system#_Zh4pIDUWEe-ywrOlwa59qQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_TSeEEDUXEe-ywrOlwa59qQ" entityName="Allocation_Assembly_OrchestratorLoadbalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_Ox-UYDUXEe-ywrOlwa59qQ"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_aOQVADUYEe-ywrOlwa59qQ" entityName="Allocation_Assembly_UiBackendLoadbalancer">
+    <resourceContainer_AllocationContext href="palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A"/>
+    <assemblyContext_AllocationContext href="default.system#_UbbawDUYEe-ywrOlwa59qQ"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

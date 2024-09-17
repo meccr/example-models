@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<semanticspd:Configuration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:semanticspd="http://palladiosimulator.org/ScalingPolicyDefinitionSemantic/1.0">
+  <spd href="spdpolicies.spd#_7R44kDUZEe-uqcH-23ha7Q"/>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A"/>
+    <elements href="palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A"/>
+    <elements href="palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A"/>
+    <elements href="palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ"/>
+    <elements href="palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ"/>
+    <elements href="palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ElasticInfrastructureCfg">
+    <unit href="palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A"/>
+    <elements href="palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A"/>
+    <linkingResource href="palladio.resourceenvironment#_7P_koMezEe2JloUXDyibGQ"/>
+    <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_wd0AcMcvEe2Kg9xWm9sYKA"/>
+    <elements href="default.system#_wd0AcMcvEe2Kg9xWm9sYKA"/>
+    <loadBalancingAssembly href="default.system#_zYp_ALqlEe64HqFjLo8HIw"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_xxa9YMcvEe2Kg9xWm9sYKA"/>
+    <elements href="default.system#_xxa9YMcvEe2Kg9xWm9sYKA"/>
+    <loadBalancingAssembly href="default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_rUJ2MMe3Ee2JloUXDyibGQ"/>
+    <elements href="default.system#_rUJ2MMe3Ee2JloUXDyibGQ"/>
+    <loadBalancingAssembly href="default.system#_Ox-UYDUXEe-ywrOlwa59qQ"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+    <elements href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+    <loadBalancingAssembly href="default.system#_Zh4pIDUWEe-ywrOlwa59qQ"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_CVSvkAmXEe2rV9rAF8Pg8Q"/>
+    <elements href="default.system#_CVSvkAmXEe2rV9rAF8Pg8Q"/>
+    <loadBalancingAssembly href="default.system#_abPOEOtLEe6Nq5YOo7hDWg"/>
+  </targetCfgs>
+  <targetCfgs xsi:type="semanticspd:ServiceGroupCfg">
+    <unit href="default.system#_qghioMcvEe2Kg9xWm9sYKA"/>
+    <elements href="default.system#_qghioMcvEe2Kg9xWm9sYKA"/>
+    <loadBalancingAssembly href="default.system#_UbbawDUYEe-ywrOlwa59qQ"/>
+  </targetCfgs>
+  <allocation href="palladio.allocation#_O9qpIMe0Ee2JloUXDyibGQ"/>
+  <system href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+  <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+  <repository href="default.repository#_dqFLECHbEd6tG9VclJz3cw"/>
+</semanticspd:Configuration>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spd:SPD xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adjustments="http://palladiosimulator.org/ScalingPolicyDefinition/Adjustments/1.0" xmlns:expectations="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Expectations/1.0" xmlns:policy="http://palladiosimulator.org/ScalingPolicyDefinition/Constraints/Policy/1.0" xmlns:spd="http://palladiosimulator.org/ScalingPolicyDefinition/1.0" xmlns:stimuli="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/Stimuli/1.0" xmlns:targets="http://palladiosimulator.org/ScalingPolicyDefinition/Targets/1.0" xmlns:triggers="http://palladiosimulator.org/ScalingPolicyDefinition/Triggers/1.0" id="_7R44kDUZEe-uqcH-23ha7Q" entityName="MENTOR Scaling Policies">
+  <scalingPolicies id="_jXBI8DUbEe-uqcH-23ha7Q" entityName="Scale OUT Payment on CPU Utilisation " targetGroup="_UaiikjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_vL_zETVAEe-WN8DaKUg5hQ" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_tqqjAzUbEe-uqcH-23ha7Q" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:CPUUtilization"/>
+      <expectedValue xsi:type="expectations:ExpectedPercentage" value="95.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_GhAvdThnEe-3s53LBUI36A" entityName="Scale OUT Inventory on CPU Utilisation" targetGroup="_TUFQ0jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_lLh8AThnEe-3s53LBUI36A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_wM0fMzhnEe-3s53LBUI36A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:CPUUtilization"/>
+      <expectedValue xsi:type="expectations:ExpectedPercentage" value="95.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_IXAnxThnEe-3s53LBUI36A" entityName="Scale OUT Cart on CPU Utilisation" targetGroup="_R-Mb8jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_l5ToAThnEe-3s53LBUI36A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_w35cgzhnEe-3s53LBUI36A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:CPUUtilization"/>
+      <expectedValue xsi:type="expectations:ExpectedPercentage" value="95.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_KN6agDnREe-aNPDZLp2ICw" entityName="Scale OUT Orchestrator on CPU Utilisation" targetGroup="_TqflsjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_Yw_pcTnREe-aNPDZLp2ICw" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_Z_5FgznREe-aNPDZLp2ICw" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:CPUUtilization"/>
+      <expectedValue xsi:type="expectations:ExpectedPercentage" value="95.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_NKgL9ThnEe-3s53LBUI36A" entityName="Scale OUT Payment on pay ResponseTime" active="true" targetGroup="_UaiikjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_mVcxcThnEe-3s53LBUI36A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_xUggAzhnEe-3s53LBUI36A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_uJPicAmVEe2rV9rAF8Pg8Q"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="5.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_SSZ55ThnEe-3s53LBUI36A" entityName="Scale OUT Inventory on confirmReservation ResponseTime" active="true" targetGroup="_TUFQ0jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_mw7zkThnEe-3s53LBUI36A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_xxcTozhnEe-3s53LBUI36A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_1YCycMe2Ee2JloUXDyibGQ"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="5.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_RAoBlThqEe-3s53LBUI36A" entityName="Scale OUT Cart on addItem ResponseTime" active="true" targetGroup="_R-Mb8jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_u5ocMThrEe-3s53LBUI36A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_wbX7wzhrEe-3s53LBUI36A" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_8nrnMMctEe2Kg9xWm9sYKA"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="5.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_PRnk9TnREe-aNPDZLp2ICw" entityName="Scale OUT Orchestrator on orchestrateOrder ResponseTime" active="true" targetGroup="_TqflsjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_rXeyMUTvEe-QzaXPqeBTJQ" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_sLozA0TvEe-QzaXPqeBTJQ" relationalOperator="GreaterThan">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_wcUUwMe1Ee2JloUXDyibGQ"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="5.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_IRqHtUnAEe-C8fM-ZDNn-A" entityName="Scale IN Payment on pay ResponseTime" targetGroup="_UaiikjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_feIOUUnAEe-C8fM-ZDNn-A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_ktOJY0nAEe-C8fM-ZDNn-A">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_uJPicAmVEe2rV9rAF8Pg8Q"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_I0nDxUnAEe-C8fM-ZDNn-A" entityName="Scale IN Inventory on confirmReservation ResponseTime" targetGroup="_TUFQ0jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_hXHJMUnAEe-C8fM-ZDNn-A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_lx5Sc0nAEe-C8fM-ZDNn-A">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_1YCycMe2Ee2JloUXDyibGQ"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_Jd3cJUnAEe-C8fM-ZDNn-A" entityName="Scale IN Cart on addItem ResponseTime" targetGroup="_R-Mb8jUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_ieeZ4UnAEe-C8fM-ZDNn-A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_mOVW00nAEe-C8fM-ZDNn-A">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_8nrnMMctEe2Kg9xWm9sYKA"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <scalingPolicies id="_J146lUnAEe-C8fM-ZDNn-A" entityName="Scale IN Orchestrator on orchestrateOrder ResponseTime" targetGroup="_TqflsjUbEe-uqcH-23ha7Q">
+    <adjustmentType xsi:type="adjustments:StepAdjustment" stepValue="-1"/>
+    <policyConstraints xsi:type="policy:CooldownConstraint" id="_jf0iIUnAEe-C8fM-ZDNn-A" cooldownTime="120.0"/>
+    <scalingTrigger xsi:type="triggers:SimpleFireOnValue" id="_mrFkQ0nAEe-C8fM-ZDNn-A">
+      <stimulus xsi:type="stimuli:OperationResponseTime">
+        <operationSignature href="default.repository#_wcUUwMe1Ee2JloUXDyibGQ"/>
+      </stimulus>
+      <expectedValue xsi:type="expectations:ExpectedTime" value="1.0"/>
+    </scalingTrigger>
+  </scalingPolicies>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_R-Mb8jUbEe-uqcH-23ha7Q" entityName="Cart Service Group">
+    <unitAssembly href="default.system#_wd0AcMcvEe2Kg9xWm9sYKA"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_TUFQ0jUbEe-uqcH-23ha7Q" entityName=" Inventory Service Group">
+    <unitAssembly href="default.system#_xxa9YMcvEe2Kg9xWm9sYKA"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_TqflsjUbEe-uqcH-23ha7Q" entityName="Orchestrator Service Group">
+    <unitAssembly href="default.system#_rUJ2MMe3Ee2JloUXDyibGQ"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_UDacAjUbEe-uqcH-23ha7Q" entityName="Order Service Group">
+    <unitAssembly href="default.system#_9c3KwCHcEd6lJo4DCALHMw"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_UaiikjUbEe-uqcH-23ha7Q" entityName="Payment Service Group">
+    <unitAssembly href="default.system#_CVSvkAmXEe2rV9rAF8Pg8Q"/>
+  </targetGroups>
+  <targetGroups xsi:type="targets:ServiceGroup" id="_UxWgEjUbEe-uqcH-23ha7Q" entityName="UiBackend Service Group">
+    <unitAssembly href="default.system#_qghioMcvEe2Kg9xWm9sYKA"/>
+  </targetGroups>
+</spd:SPD>

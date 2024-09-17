@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tools.descartes.dlim:Sequence xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tools.descartes.dlim="http://descartes.tools/dlim/0.1" name="default" terminateAfterLoops="1" firstIterationEnd="24.0" loopDuration="24.0" finalDuration="24.0">
+  <sequenceFunctionContainers name="low" duration="25.0" firstIterationEnd="24.0">
+    <function xsi:type="tools.descartes.dlim:Constant" constant="0.2"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="increase" duration="50.0">
+    <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="0.2"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="decrease" duration="50.0">
+    <function xsi:type="tools.descartes.dlim:LinearTrend" functionOutputAtStart="1.0" functionOutputAtEnd="0.2"/>
+  </sequenceFunctionContainers>
+  <sequenceFunctionContainers name="low 2" duration="50.0">
+    <function xsi:type="tools.descartes.dlim:Constant" constant="0.2"/>
+  </sequenceFunctionContainers>
+</tools.descartes.dlim:Sequence>
