@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" xsi:schemaLocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2 http://palladiosimulator.org/PalladioComponentModel/5.2#//allocation" id="_cpSykBLPEeu8HvFyDMmd-w" entityName="RemoteMeasuringAllocationKubernetes">
-  <targetResourceEnvironment_Allocation href="rm.resourceenvironment#/"/>
+  <targetResourceEnvironment_Allocation href="rm.resourceenvironment#/0"/>
   <system_Allocation href="rm.system#_ccfrQBYeEeyTBLpRqyumrw"/>
   <allocationContexts_Allocation id="_wASBsBYjEeyTBLpRqyumrw" entityName="DeviceCommunicationAllocation">
     <resourceContainer_AllocationContext href="rm.resourceenvironment#_q8E_AAxpEeuG0YlooJbPiA"/>

@@ -17,7 +17,10 @@
     </resourceContainer_ResourceEnvironment>
   </resourceenvironment:ResourceEnvironment>
   <emfprofileapplication:ProfileApplication>
-    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_GAeeUCpXEeKNWc2UWjbmuw" amount="0.5">
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:CostReport" appliedTo="/0">
+      <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_R7S0EH5wEeWkMatJbqONig"/>
+    </stereotypeApplications>
+    <stereotypeApplications xsi:type="org.palladiosimulator.cost.profile:Price" appliedTo="_GAeeUCpXEeKNWc2UWjbmuw" amount="1.0">
       <extension href="../../plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram#_ytsIkH5vEeWkMatJbqONig"/>
     </stereotypeApplications>
     <importedProfiles nsURI="org.palladiosimulator.cost.profile.cost" location="platform:/plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram"/>

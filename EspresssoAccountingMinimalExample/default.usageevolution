@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <usageevolution:UsageEvolution xmlns:usageevolution="http://usageevolution/1.0" id="_QXNmwHQ3Ee-eqa5rKMMTPg" entityName="Evolution">
-  <usages id="_QXO04HQ3Ee-eqa5rKMMTPg" entityName="Initial">
+  <usages id="_QXO04HQ3Ee-eqa5rKMMTPg" entityName="Initial" repeatingPattern="true">
     <loadEvolution href="espresso.dlim#/"/>
     <scenario href="default.usagemodel#_LPnI8CHdEd6lJo4DCALHMw"/>
   </usages>

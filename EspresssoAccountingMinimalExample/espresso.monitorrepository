@@ -14,7 +14,7 @@
     </measurementSpecifications>
     <measuringPoint xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" href="espresso.measuringpoint#//@measuringPoints.1"/>
   </monitors>
-  <monitors id="_7QlDoXTYEe-c5L9OU_UA0Q" entityName="Cost - Resource Container AppServer">
+  <monitors id="_7QlDoXTYEe-c5L9OU_UA0Q" entityName="Cost_ - Resource Container AppServer">
     <measurementSpecifications id="_ecqW4HTZEe-c5L9OU_UA0Q">
       <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
       <processingType xsi:type="monitorrepository:FeedThrough" id="_fHjG8HTZEe-c5L9OU_UA0Q"/>

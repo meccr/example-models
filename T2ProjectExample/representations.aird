@@ -19,6 +19,9 @@
     <semanticResources>unusedUsageevolutions/houry2.dlim</semanticResources>
     <semanticResources>unusedUsageevolutions/default.dlim</semanticResources>
     <semanticResources>platform:/plugin/org.palladiosimulator.cost.profile/cost.emfprofile_diagram</semanticResources>
+    <semanticResources>managed-spdpolicies.spd</semanticResources>
+    <semanticResources>managed-spdsemantics.semanticspd</semanticResources>
+    <semanticResources>spdpolicies.spd</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_XA6swDnuEe-v2otbe-ewog">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_XB1SwDnuEe-v2otbe-ewog" name="Repository Diagram" repPath="#_XBG6ADnuEe-v2otbe-ewog" changeId="aacfbe46-3a62-4903-a352-428971886672">

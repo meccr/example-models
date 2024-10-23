@@ -35,7 +35,6 @@
     <semanticResources>UC7-1_IntervalConstraint/rm.allocation</semanticResources>
     <semanticResources>experiments/My.experiments</semanticResources>
     <semanticResources>experiments/pcm.variation</semanticResources>
-    <semanticResources>scalingPolicies/models2023EI.spd</semanticResources>
     <semanticResources>scalingPolicies/semanticModels/aio.semanticspd</semanticResources>
     <semanticResources>scalingPolicies/ThesisExp.spd</semanticResources>
     <semanticResources>tmp/d0af3cd8-609f-4cc3-8984-d3c2c841c386/rm.allocation</semanticResources>
@@ -566,6 +565,11 @@
     <semanticResources>tmp/f3e61203-4518-4fa3-9971-b5af4017d262/fb3ea307-9f27-4c68-b4ec-a37ec1c04348/rm.slo</semanticResources>
     <semanticResources>tmp/f3e61203-4518-4fa3-9971-b5af4017d262/fb3ea307-9f27-4c68-b4ec-a37ec1c04348/aio.semanticspd</semanticResources>
     <semanticResources>tmp/f3e61203-4518-4fa3-9971-b5af4017d262/fb3ea307-9f27-4c68-b4ec-a37ec1c04348/rm.allocation</semanticResources>
+    <semanticResources>scalingPolicies/unusedpolicies/transformationTestElasticService.spd</semanticResources>
+    <semanticResources>scalingPolicies/unusedpolicies/models2023EI.spd</semanticResources>
+    <semanticResources>scalingPolicies/unusedpolicies/models2023SG.spd</semanticResources>
+    <semanticResources>scalingPolicies/semanticModels/managed-aio.semanticspd</semanticResources>
+    <semanticResources>scalingPolicies/managed-ThesisExp.spd</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_UF3W4PZdEeqHU66RnBytqw">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.palladiosimulator.editors.sirius.repository/description/repository.odesign#//@ownedViewpoints[name='Repository']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_QR4IgBYeEeyTBLpRqyumrw" name="rm.repository.diagram" repPath="#_QPoFwBYeEeyTBLpRqyumrw" changeId="777767d5-dbd2-46af-a98a-f555669544f4">

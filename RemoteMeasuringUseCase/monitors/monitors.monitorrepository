@@ -151,14 +151,14 @@
     </measurementSpecifications>
     <measuringPoint xsi:type="spdmeasuringpoint:ElasticInfrastructureMeasuringPoint" href="remoteMeasuringPoints.measuringpoint#//@measuringPoints.17"/>
   </monitors>
-  <monitors id="_NGPBIXTaEe-c5L9OU_UA0Q" entityName="CostMonitor ResourceContainer1">
+  <monitors id="_NGPBIXTaEe-c5L9OU_UA0Q" entityName="Cost_Monitor ResourceContainer1">
     <measurementSpecifications id="_dtDpcHTaEe-c5L9OU_UA0Q">
       <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
       <processingType xsi:type="monitorrepository:FeedThrough" id="_f1NBsHTaEe-c5L9OU_UA0Q"/>
     </measurementSpecifications>
     <measuringPoint xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" href="remoteMeasuringPoints.measuringpoint#//@measuringPoints.18"/>
   </monitors>
-  <monitors id="_Nj3_YXTaEe-c5L9OU_UA0Q" entityName="CostMonitor ResourceContainer2">
+  <monitors id="_Nj3_YXTaEe-c5L9OU_UA0Q" entityName="Cost_Monitor ResourceContainer2">
     <measurementSpecifications id="_e5iqsHTaEe-c5L9OU_UA0Q">
       <metricDescription xsi:type="metricspec:NumericalBaseMetricDescription" href="pathmap://METRIC_SPEC_MODELS/commonMetrics.metricspec#_HkIKIv-3EeSjS6KmS7i5VA"/>
       <processingType xsi:type="monitorrepository:FeedThrough" id="_f1NBsXTaEe-c5L9OU_UA0Q"/>
