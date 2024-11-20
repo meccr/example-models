@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.palladiosimulator.analyzer.slingshot.stateexploration.ui.launchConfigurationType1">
+    <stringAttribute key="EDP2RepositoryID" value="_1vO9MHQjEe-xS75-6HAwnQ"/>
+    <booleanAttribute key="Idle Exploration" value="false"/>
+    <stringAttribute key="Location for Arch. Configruations" value=""/>
+    <stringAttribute key="Max Exploration Cycles" value="800"/>
+    <stringAttribute key="Min State Duration" value="100"/>
+    <stringAttribute key="Sensitivity [0, 1 (most sensitive)]" value="0"/>
+    <stringAttribute key="accuracyQualityAnnotationFile" value=""/>
+    <stringAttribute key="allocationModel" value="platform:/resource/Espresso Accounting/default.allocation"/>
+    <booleanAttribute key="clear" value="true"/>
+    <stringAttribute key="confidenceBatchSize" value="200"/>
+    <stringAttribute key="confidenceHalfWidth" value="10"/>
+    <stringAttribute key="confidenceLevel" value="95"/>
+    <stringAttribute key="confidenceMinNumberOfBatches" value="60"/>
+    <stringAttribute key="confidenceModelElementName" value=""/>
+    <stringAttribute key="confidenceModelElementURI" value=""/>
+    <booleanAttribute key="confidenceUseAutomaticBatches" value="true"/>
+    <intAttribute key="datasourceID" value="-1"/>
+    <intAttribute key="de.uka.ipd.sdq.workflowengine.debuglevel" value="3"/>
+    <stringAttribute key="experimentRun" value="MyRun"/>
+    <stringAttribute key="fixedSeed0" value="0"/>
+    <stringAttribute key="fixedSeed1" value="1"/>
+    <stringAttribute key="fixedSeed2" value="2"/>
+    <stringAttribute key="fixedSeed3" value="3"/>
+    <stringAttribute key="fixedSeed4" value="4"/>
+    <stringAttribute key="fixedSeed5" value="5"/>
+    <stringAttribute key="maximum" value=""/>
+    <stringAttribute key="maximumMeasurementCount" value="-1"/>
+    <stringAttribute key="minimum" value=""/>
+    <stringAttribute key="monitorrepository" value="platform:/resource/Espresso Accounting/espresso.monitorrepository"/>
+    <stringAttribute key="outpath" value="org.palladiosimulator.temporary"/>
+    <stringAttribute key="persistenceFramework" value="Experiment Data Persistency &amp; Presentation (EDP2)"/>
+    <stringAttribute key="semanticspd" value="platform:/resource/Espresso Accounting/espresso.semanticspd"/>
+    <booleanAttribute key="shouldThrowException" value="true"/>
+    <stringAttribute key="simTime" value="600"/>
+    <booleanAttribute key="simulateAccuracy" value="false"/>
+    <stringAttribute key="simulatorId" value="de.uka.ipd.sdq.codegen.simucontroller.simucom"/>
+    <stringAttribute key="slo" value="platform:/resource/Espresso Accounting/espresso.slo"/>
+    <stringAttribute key="spd" value="platform:/resource/Espresso Accounting/espresso.spd"/>
+    <stringAttribute key="stepwidth" value=""/>
+    <stringAttribute key="usageEvolution" value="platform:/resource/Espresso Accounting/default.usageevolution"/>
+    <stringAttribute key="usagemodel" value="platform:/resource/Espresso Accounting/default.usagemodel"/>
+    <booleanAttribute key="useConfidenceStopCondition" value="false"/>
+    <booleanAttribute key="useFixedSeed" value="true"/>
+    <stringAttribute key="variable" value=""/>
+    <stringAttribute key="variationId" value="Default Variation"/>
+    <booleanAttribute key="verboseLogging" value="false"/>
+</launchConfiguration>
