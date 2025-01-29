@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentAutomation.Experiments:ExperimentRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ExperimentAutomation.Experiments="http://palladiosimulator.org/ExperimentAutomation/Experiments/1.0" xmlns:ExperimentAutomation.Experiments.AbstractSimulation="http://palladiosimulator.org/ExperimentAutomation/AbstractSimulation/1.0" xmlns:slingshottooladapter="http://palladiosimulator.org/ExperimentAutomation/ToolAdapter/Slingshot/1.0">
+  <experiments id="manges-espresso-experiment" name="Managed System Espresso Accounting" description="Experimentsfile for running espresso accounting example as managed system." repetitions="1">
+    <toolConfiguration xsi:type="slingshottooladapter:SlingshotConfiguration" name="Managed Espresso Accounting Slingshot Configuration">
+      <datasource xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MemoryDatasource"/>
+    </toolConfiguration>
+    <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:SimTimeStopCondition" simulationTime="100"/>
+    <initialModel>
+      <usageModel href="default.usagemodel#/"/>
+      <allocation href="default.allocation#_JiPBICHdEd6lJo4DCALHMw"/>
+      <monitorRepository href="espresso.monitorrepository#_ysXQINV8EeSaPsLvWUqTbQ"/>
+      <serviceLevelObjectives href="espresso.slo#/"/>
+      <repository href="default.repository#_dqFLECHbEd6tG9VclJz3cw"/>
+      <system href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+      <resourceEnvironment href="default.resourceenvironment#/0"/>
+      <usageEvolution href="default.usageevolution#_QXNmwHQ3Ee-eqa5rKMMTPg"/>
+      <scalingDefinitions href="managed-espresso.spd#_py6nEHQhEe-xS75-6HAwnQ"/>
+      <spdSemanticConfiguration href="managed-espresso.semanticspd#/"/>
+    </initialModel>
+  </experiments>
+</ExperimentAutomation.Experiments:ExperimentRepository>
