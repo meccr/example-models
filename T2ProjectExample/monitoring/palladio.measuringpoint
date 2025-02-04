@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <org.palladiosimulator.edp2.models:MeasuringPointRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.palladiosimulator.edp2.models="http://palladiosimulator.org/EDP2/MeasuringPoint/1.0" xmlns:pcmmeasuringpoint="http://palladiosimulator.org/PCM/MeasuringPoint/1.0" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" id="_I50WsMe8Ee2JloUXDyibGQ">
-  <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: FullUsageScenario" resourceURIRepresentation="platform:/resource/mentorexample/full.usagemodel#_0X2-sMcwEe2Kg9xWm9sYKA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:UsageScenarioMeasuringPoint" stringRepresentation="Usage Scenario: FullUsageScenario" resourceURIRepresentation="platform:/resource/T2-Project%20Example/full.usagemodel#_0X2-sMcwEe2Kg9xWm9sYKA">
     <usageScenario href="../full.usagemodel#_0X2-sMcwEe2Kg9xWm9sYKA"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in OrderResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_C4B3kMe1Ee2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in OrderResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_C4B3kMe1Ee2JloUXDyibGQ">
     <activeResource href="../palladio.resourceenvironment#_C4B3kMe1Ee2JloUXDyibGQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in PaymentResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_0wYncMe0Ee2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in PaymentResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_0wYncMe0Ee2JloUXDyibGQ">
     <activeResource href="../palladio.resourceenvironment#_0wYncMe0Ee2JloUXDyibGQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in InventoryResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_CmiVkMo_Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in InventoryResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_CmiVkMo_Ee2g7r7Z0ui35A">
     <activeResource href="../palladio.resourceenvironment#_CmiVkMo_Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in CartResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_LMDZ4Mo_Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in CartResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_LMDZ4Mo_Ee2g7r7Z0ui35A">
     <activeResource href="../palladio.resourceenvironment#_LMDZ4Mo_Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in UiBackendResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_NupScMo_Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in UiBackendResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_NupScMo_Ee2g7r7Z0ui35A">
     <activeResource href="../palladio.resourceenvironment#_NupScMo_Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in OrchestratorResourceContainer" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_SXu9cMo_Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ActiveResourceMeasuringPoint" stringRepresentation="CPU [0] in OrchestratorResourceContainer" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_SXu9cMo_Ee2g7r7Z0ui35A">
     <activeResource href="../palladio.resourceenvironment#_SXu9cMo_Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container CartResourceContainer [_3B08QMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container CartResourceContainer [_3B08QMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A">
     <resourceContainer href="../palladio.resourceenvironment#_3B08QMo-Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container InventoryResourceContainer [_x4z0AMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container InventoryResourceContainer [_x4z0AMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A">
     <resourceContainer href="../palladio.resourceenvironment#_x4z0AMo-Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container OrchestratorResourceContainer [_Q9xg4Mo_Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container OrchestratorResourceContainer [_Q9xg4Mo_Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A">
     <resourceContainer href="../palladio.resourceenvironment#_Q9xg4Mo_Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container OrderResourceContainer [_zqmgkMezEe2JloUXDyibGQ]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container OrderResourceContainer [_zqmgkMezEe2JloUXDyibGQ]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ">
     <resourceContainer href="../palladio.resourceenvironment#_zqmgkMezEe2JloUXDyibGQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container PaymentResourceContainer [_0BJYUMezEe2JloUXDyibGQ]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container PaymentResourceContainer [_0BJYUMezEe2JloUXDyibGQ]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ">
     <resourceContainer href="../palladio.resourceenvironment#_0BJYUMezEe2JloUXDyibGQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container UiBackendResourceContainer [_4n4UEMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/mentorexample/palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A">
+  <measuringPoints xsi:type="pcmmeasuringpoint:ResourceContainerMeasuringPoint" stringRepresentation="Resource Container UiBackendResourceContainer [_4n4UEMo-Ee2g7r7Z0ui35A]" resourceURIRepresentation="platform:/resource/T2-Project%20Example/palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A">
     <resourceContainer href="../palladio.resourceenvironment#_4n4UEMo-Ee2g7r7Z0ui35A"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_OrderLoadbalancer.OrderLoadbalancer_provides_for_Order.order" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_KjhikgzkEeCFg86gxKwVPw">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_OrderLoadbalancer.OrderLoadbalancer_provides_for_Order.order" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_KjhikgzkEeCFg86gxKwVPw">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_GUausDUWEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_KjhikgzkEeCFg86gxKwVPw"/>
     <assembly href="../default.system#_Zh4pIDUWEe-ywrOlwa59qQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_PaymentLoadBalancer.Provide_Payment_PaymentLoadBalancer.pay" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_uJPicAmVEe2rV9rAF8Pg8Q">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_PaymentLoadBalancer.Provide_Payment_PaymentLoadBalancer.pay" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_uJPicAmVEe2rV9rAF8Pg8Q">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_9YuBcOtHEe6Nq5YOo7hDWg"/>
     <operationSignature href="../default.repository#_uJPicAmVEe2rV9rAF8Pg8Q"/>
     <assembly href="../default.system#_abPOEOtLEe6Nq5YOo7hDWg"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.getItem" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_5P_SoMctEe2Kg9xWm9sYKA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.getItem" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_5P_SoMctEe2Kg9xWm9sYKA">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_X5Vo4DUUEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_5P_SoMctEe2Kg9xWm9sYKA"/>
     <assembly href="../default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.getAllItems" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_6aEgIMctEe2Kg9xWm9sYKA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.getAllItems" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_6aEgIMctEe2Kg9xWm9sYKA">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_X5Vo4DUUEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_6aEgIMctEe2Kg9xWm9sYKA"/>
     <assembly href="../default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.confirmReservation" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_1YCycMe2Ee2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.confirmReservation" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_1YCycMe2Ee2JloUXDyibGQ">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_X5Vo4DUUEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_1YCycMe2Ee2JloUXDyibGQ"/>
     <assembly href="../default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.placeReservation" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_4kHs4Me2Ee2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_InventoryLoadbalancer.Provide_Inventory_InventoryLoadbalancer.placeReservation" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_4kHs4Me2Ee2JloUXDyibGQ">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_X5Vo4DUUEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_4kHs4Me2Ee2JloUXDyibGQ"/>
     <assembly href="../default.system#_tapYwDUVEe-ywrOlwa59qQ"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_CartLoadbalancer.Provide_Cart_CartLoadBalancer.getContent" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_7z29kMctEe2Kg9xWm9sYKA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_CartLoadbalancer.Provide_Cart_CartLoadBalancer.getContent" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_7z29kMctEe2Kg9xWm9sYKA">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_5g9PcLqkEe64HqFjLo8HIw"/>
     <operationSignature href="../default.repository#_7z29kMctEe2Kg9xWm9sYKA"/>
     <assembly href="../default.system#_zYp_ALqlEe64HqFjLo8HIw"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_CartLoadbalancer.Provide_Cart_CartLoadBalancer.addItem" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_8nrnMMctEe2Kg9xWm9sYKA">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_CartLoadbalancer.Provide_Cart_CartLoadBalancer.addItem" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_8nrnMMctEe2Kg9xWm9sYKA">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_5g9PcLqkEe64HqFjLo8HIw"/>
     <operationSignature href="../default.repository#_8nrnMMctEe2Kg9xWm9sYKA"/>
     <assembly href="../default.system#_zYp_ALqlEe64HqFjLo8HIw"/>
   </measuringPoints>
-  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_OrchestratorLoadbalancer.OrchestratorLoadbalancer_provides_for_Orchestrator.orchestrateOrder" resourceURIRepresentation="platform:/resource/mentorexample/default.repository#_wcUUwMe1Ee2JloUXDyibGQ">
+  <measuringPoints xsi:type="pcmmeasuringpoint:AssemblyOperationMeasuringPoint" stringRepresentation="Operation: Assembly_OrchestratorLoadbalancer.OrchestratorLoadbalancer_provides_for_Orchestrator.orchestrateOrder" resourceURIRepresentation="platform:/resource/T2-Project%20Example/default.repository#_wcUUwMe1Ee2JloUXDyibGQ">
     <role xsi:type="repository:OperationProvidedRole" href="../default.repository#_6fzbsDUWEe-ywrOlwa59qQ"/>
     <operationSignature href="../default.repository#_wcUUwMe1Ee2JloUXDyibGQ"/>
     <assembly href="../default.system#_Ox-UYDUXEe-ywrOlwa59qQ"/>
