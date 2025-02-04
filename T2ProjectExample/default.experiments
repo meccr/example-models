@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentAutomation.Experiments:ExperimentRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ExperimentAutomation.Experiments="http://palladiosimulator.org/ExperimentAutomation/Experiments/1.0" xmlns:ExperimentAutomation.Experiments.AbstractSimulation="http://palladiosimulator.org/ExperimentAutomation/AbstractSimulation/1.0" xmlns:stateexplorationtooladapter="http://palladiosimulator.org/ExperimentAutomation/ToolAdapter/StateExploration/1.0">
+  <experiments>
+    <toolConfiguration xsi:type="stateexplorationtooladapter:StateExplorationConfiguration" name="T2 Project State Exploration Configuration" minStateDuration="200.0" maxIterations="15" horizon="3600">
+      <datasource xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MemoryDatasource"/>
+    </toolConfiguration>
+    <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:SimTimeStopCondition"/>
+    <initialModel>
+      <usageModel href="full.usagemodel#/"/>
+      <allocation href="palladio.allocation#_O9qpIMe0Ee2JloUXDyibGQ"/>
+      <monitorRepository href="monitoring/palladio.monitorrepository#_I4AY0Me8Ee2JloUXDyibGQ"/>
+      <serviceLevelObjectives href="palladio.slo#/"/>
+      <repository href="default.repository#_dqFLECHbEd6tG9VclJz3cw"/>
+      <system href="default.system#_84D0kCHcEd6lJo4DCALHMw"/>
+      <resourceEnvironment href="palladio.resourceenvironment#/0"/>
+      <usageEvolution href="default.usageevolution#_lpg-AAYeEe-Go-kexcB0QQ"/>
+      <scalingDefinitions href="spdpolicies.spd#_7R44kDUZEe-uqcH-23ha7Q"/>
+      <spdSemanticConfiguration href="spdsemantics.semanticspd#/"/>
+    </initialModel>
+  </experiments>
+</ExperimentAutomation.Experiments:ExperimentRepository>
