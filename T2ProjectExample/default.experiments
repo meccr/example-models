@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExperimentAutomation.Experiments:ExperimentRepository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ExperimentAutomation.Experiments="http://palladiosimulator.org/ExperimentAutomation/Experiments/1.0" xmlns:ExperimentAutomation.Experiments.AbstractSimulation="http://palladiosimulator.org/ExperimentAutomation/AbstractSimulation/1.0" xmlns:stateexplorationtooladapter="http://palladiosimulator.org/ExperimentAutomation/ToolAdapter/StateExploration/1.0">
   <experiments>
-    <toolConfiguration xsi:type="stateexplorationtooladapter:StateExplorationConfiguration" name="T2 Project State Exploration Configuration" minStateDuration="200.0" maxIterations="15" horizon="3600">
+    <toolConfiguration xsi:type="stateexplorationtooladapter:StateExplorationConfiguration" name="T2 Project State Exploration Configuration" minStateDuration="200.0" maxIterations="15" horizon="3600" costInterval="10.0" costAmount="0.1">
       <datasource xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:MemoryDatasource"/>
     </toolConfiguration>
     <stopConditions xsi:type="ExperimentAutomation.Experiments.AbstractSimulation:SimTimeStopCondition"/>
